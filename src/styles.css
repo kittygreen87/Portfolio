@@ -44,6 +44,9 @@ p {
 }
 .about-me-paragraphs {
     display: flex;
+}
+
+.about-me-paragraphs p {
     margin: 10px;
 }
 
