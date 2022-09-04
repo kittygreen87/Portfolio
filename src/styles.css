@@ -37,3 +37,9 @@ h3 {
     justify-content: center;
 
 }
+
+.contact-link {
+    background-color: var(--primary-color);
+    box-shadow: --var(--box-shadow);
+    color: white;
+}
