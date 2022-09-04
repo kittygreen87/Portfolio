@@ -42,7 +42,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.about-me-paragraphs p{
+.about-me-paragraphs {
     display: flex;
     margin: 10px;
 }
