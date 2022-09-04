@@ -42,6 +42,9 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+.about-me-paragraphs p{
+    margin: 10px;
+}
 
 .links a{
     margin: 20px;
