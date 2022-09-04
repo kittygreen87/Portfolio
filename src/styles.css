@@ -85,3 +85,11 @@ p {
     text-align: center;
     display: block;
 }
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 20px;
+    text-decoration: none;
+}
