@@ -43,6 +43,7 @@ p {
     margin-inline-end: 0px;
 }
 .about-me-paragraphs p{
+    display: flex;
     margin: 10px;
 }
 
