@@ -44,10 +44,12 @@ p {
 }
 .about-me-paragraphs {
     display: flex;
+    justify-content: center;
 }
 
 .about-me-paragraphs p {
     margin: 10px;
+    
 }
 
 .links a{
@@ -76,4 +78,10 @@ p {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     background-color: white;
+}
+
+.link-homepage {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
 }
