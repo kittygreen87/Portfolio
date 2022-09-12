@@ -1,101 +1,100 @@
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
-    --box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-
-
 h1 {
-    text-align: center;
-    font-size: 96px;
-    margin: 0;
-    display: block;
-    font-weight: bold;
+  text-align: center;
+  font-size: 96px;
+  margin: 0;
+  display: block;
+  font-weight: bold;
 }
 
 h2 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 48px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 h3 {
-    text-align: center;
-    opacity: 0.65;
+  text-align: center;
+  opacity: 0.65;
 }
 
 p {
-    background: var(--secondary-color);
-    padding: 20px;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: center;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 .about-me-paragraphs {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .about-me-paragraphs p {
-    margin: 10px;
-    
+  margin: 10px;
 }
 
-.links a{
-    margin: 20px;
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
+.links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .links {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
 }
 
 .contact-link {
-    border: 1px solid;
-    background-color: var(--primary-color);
-    box-shadow: --var(--box-shadow);
-    color: white;
+  border: 1px solid;
+  background-color: var(--primary-color);
+  box-shadow: --var(--box-shadow);
+  color: white;
 }
 
 .about-link {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: white;
 }
 
 .link-homepage {
-    color: var(--primary-color);
-    text-align: center;
-    display: block;
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
 }
 
 .email-link {
-    display: flex;
-    justify-content: center;
-    color: var(--primary-color);
-    font-size: 20px;
-    text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.navlogo {
-  display: block;
-  margin: 30px auto;
-  width: 120px;
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
 }
