@@ -98,3 +98,14 @@ p {
   text-decoration: none;
   white-space: nowrap;
 }
+
+.weatherlink {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+
+}
