@@ -27,6 +27,16 @@ h3 {
   opacity: 0.65;
 }
 
+h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 p {
   background: var(--secondary-color);
   padding: 20px;
