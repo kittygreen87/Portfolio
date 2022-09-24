@@ -139,3 +139,7 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+body {
+  background-color: rgb(252, 205, 234);
+}
